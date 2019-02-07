@@ -6,4 +6,4 @@
 - [Installation](https://dbt.readme.io/docs/installation)
 - Join the [chat](http://ac-slackin.herokuapp.com/) on Slack for live questions and support.
 
----
+---made an adjustment to the readme for initial commit to dbt-learn-project
