@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: listings
+    columns:
+      - name: listing_id
+        description: identifying number for each listing
+        tests:
+          - not_null
+          - unique
+
+
+  - name: listing_history
+    columns:
+      - name: listing_id
+        description: identifying number for each listing
+        tests:
+          - not_null
+  
+
+  - name: reviews
+    columns:
+      - name: reviews_id 
+        description: identifying number for each review
+        tests:
+          - not_null
+          - unique
+            
+
